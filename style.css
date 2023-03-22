@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-image: url("BACKGROUND.jpg");
+    background-size: cover;
+    text-align: center;
+    color: rgb(32, 60, 32);
+}
+canvas{
+    border: 3px solid rgb(32, 60, 32);
+    margin-top: 20px;
+}
+button{
+    background-color:darkslategrey;
+    border: 3px solid rgb(32, 60, 32);
+    color:rgb(76, 179, 179);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+h3{
+    border: 3px solid rgb(32, 60, 32);
+    border-radius: 15px;
+    color: rgb(76, 179, 179);
+    margin:10px ;
+}
+.header{
+    background-color: rgba(46, 100, 66, 0.556);
+    padding: 20px;
+}
+footer{
+    position: absolute;
+    bottom:0px;
+    color:rgb(76, 179, 179);
+    width: 100%;
+    text-align: center;
+    background-color: rgba(46, 100, 66, 0.556);
+}
